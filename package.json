@@ -1,0 +1,23 @@
+{
+  "name": "gap-front-fun",
+  "version": "1.0.0",
+  "description": "gap-front-fun",
+  "main": "index.js",
+  "scripts": {
+    "jest": "jest",
+    "eslint": "eslint .",
+    "test": "npm run eslint && npm run jest"
+  },
+  "keywords": [
+    "gap"
+  ],
+  "author": "zhanjh@126.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.4",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.0.4",
+    "regenerator-runtime": "^0.11.1"
+  }
+}
