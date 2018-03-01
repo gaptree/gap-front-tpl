@@ -1,4 +1,4 @@
-import {type} from '../type.js';
+import {type} from '../index.js';
 
 test('type number', () => {
     expect(type(1)).toBe('number');

@@ -1,4 +1,4 @@
-import {toFormData} from '../toFormData.js';
+import {toFormData} from '../index.js';
 
 // https://developer.mozilla.org/en-US/docs/Web/API/FormData/get
 // ie not support FormData.get()
