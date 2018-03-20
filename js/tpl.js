@@ -33,7 +33,7 @@ export function tpl(literalSections, ...substs) {
     // produces one literal section, an empty string)
     result += raw[raw.length-1]; // (A)
 
-    return result.replace(/\s+/g, ' ');
+    return result.replace(/\s+/g, ' ').trim();
     /*
     // Split on newlines.
     let lines = result.split(/(?:\r\n|\n|\r)/);

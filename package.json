@@ -1,7 +1,7 @@
 {
-  "name": "gap-front-fun",
-  "version": "1.0.6",
-  "description": "gap-front-fun",
+  "name": "gap-front-tpl",
+  "version": "1.0.0",
+  "description": "Gap Front Tol",
   "main": "index.js",
   "scripts": {
     "jest": "jest",
@@ -18,5 +18,6 @@
     "babel-jest": "^22.0.4",
     "babel-preset-env": "^1.6.1",
     "regenerator-runtime": "^0.11.1"
-  }
+  },
+  "repository": "https://github.com/gaptree/gap-front-tpl"
 }
